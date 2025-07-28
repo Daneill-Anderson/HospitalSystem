@@ -1,0 +1,82 @@
+
+Authors: Daneill Anderson
+Date Created: July 25, 2025
+Course: ITT103 – Programming Techniques
+GitHub Public URL to Code: (https://github.com/YourUsername/HospitalSystem) remove here when i have the github
+
+===========================
+PROGRAM DESCRIPTION
+===========================
+
+This program is a Python-based Hospital Management System designed to simulate key hospital operations. 
+It is fully menu-driven and runs in the terminal/command line. I created it to demonstrate 
+my knowledge of classes, functions, inheritance, and exception handling.
+
+===========================
+HOW TO RUN
+===========================
+
+1. Make sure Python 3 is installed on your system.
+2. Save the program file as: hospital_system.py
+3. Open your terminal or command prompt.
+4. Navigate to the folder containing the file.
+5. Run it using: python hospital_system.py
+6. Follow the menu instructions to interact with the system.
+
+===========================
+FUNCTIONALITIES
+===========================
+
+The program includes the following features:
+
+1. Add Patient:
+   - Input patient info: name, DOB, gender, address, contact.
+   - Auto-generates unique Patient ID.
+   - Stores and retrieves patient profiles.
+
+2. Add Doctor:
+   - Input doctor info: name, DOB, gender, address, specialty, contact.
+   - Auto-generates unique Doctor ID.
+   - Stores schedule and allows viewing.
+
+3. Book Appointment:
+   - Match patient and doctor using their IDs.
+   - Assigns date/time and prevents double booking.
+
+4. Cancel Appointment:
+   - Search by Appointment ID and remove the session.
+
+5. View Patient Profile:
+   - Displays all info and appointments for that patient.
+
+6. View Doctor Schedule:
+   - Shows all future appointments for a doctor.
+
+7. Print Bill:
+   - Adds JMD $3000 consultation fee.
+   - Allows input of custom service charges.
+   - Prints formatted receipt.
+
+===========================
+REQUIRED MODIFICATIONS
+===========================
+
+- To support persistent data storage, the system could be extended to use files or a database.
+- Authentication for admin access could be added.
+- A GUI could be implemented using Tkinter for better user experience.
+
+===========================
+ASSUMPTIONS & LIMITATIONS
+===========================
+
+- All dates must be entered in the format YYYY-MM-DD.
+- All times must use the format HH:MM (24-hour).
+- Contact numbers must be exactly 10 digits.
+- System data is stored in memory only (not saved on exit).
+- Multiple users cannot book the same doctor at the same date and time.
+
+===========================
+ACADEMIC INTEGRITY
+===========================
+
+I CERTIFY THAT I HAVE NOT GIVEN OR RECEIVED ANY UNAUTHORIZED ASSISTANCE ON THIS ASSIGNMENT. Daneill Anderson on 7/26/2025
